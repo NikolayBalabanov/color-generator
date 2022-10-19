@@ -63,7 +63,6 @@ function copyClickedBoard(text) {
 }
 
 function updateColorsHash(colors = []) {
-    console.log(colors)
     document.location.hash = colors.map((el) => el.slice(1)).join('-')
 }
 
